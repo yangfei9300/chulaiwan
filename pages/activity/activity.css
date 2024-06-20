@@ -1,0 +1,23 @@
+.bottomquanBigview{
+	width: 750rpx;
+	position: fixed;
+	bottom: 0rpx;
+	min-height: 500rpx;
+	background-color: white;
+	z-index: 2000;
+}
+.guanbiicon{
+	width: 30rpx;
+	height: 30rpx;
+}
+.shangquaname{
+	width:330rpx;
+	line-height: 80rpx;
+	text-align: center;
+	background-color: #f5f5f5;
+	font-size: 30rpx;
+	margin-bottom: 20rpx;
+}
+.yiwei{
+	position: absolute;
+}
