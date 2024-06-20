@@ -1,0 +1,1 @@
+<view class="content data-v-71f29c8d"><view class="Sgin data-v-71f29c8d"><view class="SginTitle data-v-71f29c8d">{{list.title}}</view><canvas canvas-id="qrcode" class="data-v-71f29c8d"></canvas><view class="SginTow data-v-71f29c8d">赶快<text style="color:#F8B800;" class="data-v-71f29c8d">扫一扫</text>一起玩耍吧~</view></view></view>

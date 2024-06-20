@@ -1,0 +1,54 @@
+.listview{
+	height: 274rpx;
+	
+	box-shadow: 0rpx 0rpx 30rpx 0rpx rgba(17,17,17,0.06);
+	border-radius: 20rpx 20rpx 20rpx 20rpx;
+	opacity: 1;
+	padding:20rpx;
+	margin-bottom:20rpx;
+}
+.listbg{
+	background: linear-gradient(to bottom,#FFD7AF, #FFEDDA);
+}
+.leftimg{
+	width: 208rpx;
+	height: 238rpx;
+	background-color: red;
+	margin-right:15rpx;
+}
+.topname{
+	width: 424rpx;
+	height: 38rpx;
+	font-size: 32rpx;
+	font-family: Inter-Regular, Inter;
+	font-weight: bold;
+	color: #111111;
+	line-height: 38rpx;
+}
+.diqu{
+	height: 30rpx;
+	font-size: 24rpx;
+	font-family: Inter-Regular, Inter;
+	font-weight: 400;
+	color: #939393;
+	line-height: 28rpx;
+	margin:10rpx 0rpx;
+}
+.mianfei{
+	height: 36rpx;
+	font-size: 28rpx;
+	font-family: Inter-Regular, Inter;
+	font-weight: 400;
+	color: red; 
+	line-height: 33rpx;
+}
+.headerimg{
+	width: 50rpx;
+	height: 50rpx;
+	border-radius: 50%;
+	border: 2px solid red;
+	background-color: #939393;
+}
+.headerimg1{
+	margin-left: -25rpx;
+}

@@ -1,0 +1,313 @@
+.quanzibei.data-v-90593874{
+	width: 750rpx;
+	background-image: url(https://ta.imjiayi.com/upload/upload/未标题-102@2x.png);
+	background-size: 100% 100%;
+	padding-top: 20rpx;
+	margin-top: -13rpx;
+}
+.yuansel.data-v-90593874{
+	width: 50rpx;
+	height: 50rpx;
+	background: rgba(248, 184, 0, 1);
+	border-radius: 50%;
+	position: absolute;
+	left: 0rpx;
+	top: 0rpx;
+	z-index: 20;
+}
+.topview.data-v-90593874{
+		/* height: 119rpx; */
+		height: 288rpx;
+		/* background-image: url(http://ysv.zjhaly.top/chulaiwan/active/qztop.png); */
+		background-image: url(https://shandongtibohui.zsyflive.com/profile/clw/qztop.png);
+		/* https://shandongtibohui.zsyflive.com/profile/clw/qztop.png */
+		background-size: 100% 100%;
+}
+.bacdaas.data-v-90593874{
+		background-image: url(https://shandongtibohui.zsyflive.com/profile/clw/qztop.png);
+		background-size: 100% 100%;
+}
+.guanzhutxtbgP.data-v-90593874{
+		background-image: url(https://ta.imjiayi.com/upload/upload/%E6%9C%AA%E6%A0%87%E9%A2%98-102@2x.png);
+		background-size: 100% 100%;
+}
+.guanzhutxtbgP1.data-v-90593874{
+		background-image: url(http://ysv.zjhaly.top/chulaiwan/active/qztop.png);
+		background-size: 100% 100%;
+}
+.bbbg1.data-v-90593874{
+		background-image: url(http://ysv.zjhaly.top/chulaiwan/active/qztop.png);
+		background-size: 100% 100%;
+}
+.TimeLink.data-v-90593874 {
+		display: flex;
+		align-items: center;
+		margin-right: 10rpx;
+}
+.TimeView.data-v-90593874 {
+		display: flex;
+		align-items: center;
+}
+.TimeImg.data-v-90593874 {
+		width: 48rpx;
+		height: 48rpx;
+		margin-right: 4rpx;
+}
+.TimeText.data-v-90593874 {}
+.Time.data-v-90593874 {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		font-size: 32rpx;
+		color: #A8A8A8;
+		margin: 16rpx 0;
+}
+/* 圈子兴趣标签 */
+.MarksView.data-v-90593874 {
+		background: #F7F7F9;
+		    /* color: #F8B800; */
+		font-size: 24rpx;
+		padding: 6rpx 20rpx;
+		margin-right: 16rpx;
+		display: inline-block;
+		border-radius: 100rpx 100rpx 100rpx 100rpx;
+}
+.Marks.data-v-90593874 {
+		display: flex;
+		align-items: center;
+		margin: 16rpx 0;
+		white-space: nowrap;
+}
+/* 圈子列表地址 */
+.AddressImg.data-v-90593874 {
+		width: 30rpx;
+		height: 30rpx;
+		margin-right: 4rpx;
+}
+.Address.data-v-90593874 {
+		display: flex;
+		align-items: center;
+		font-size: 28rpx;
+		color: #949494;
+		margin: 16rpx 0;
+}
+/* 圈子列表 */
+.MomentPhoto.data-v-90593874 {
+		/* width: 196rpx;
+		height: 196rpx; */
+		border-radius: 12rpx;
+		margin-right: 7rpx;
+		margin-top: 8rpx;
+}
+.MomentPhoto5.data-v-90593874 {
+		width: 196rpx;
+		height: 196rpx;
+		border-radius: 12rpx;
+		margin-right: 7rpx;
+		margin-top: 8rpx;
+}
+.MomentPhoto4.data-v-90593874 {
+		width: 196rpx;
+		height: 196rpx;
+		border-radius: 12rpx;
+		margin-right: 8rpx;
+		margin-top: 8rpx;
+}
+.photoCSS.data-v-90593874 {
+		width: 1000rpx;
+		height: 1000rpx;
+}
+.MomentRight.data-v-90593874 {
+		width: 540rpx;
+		overflow: hidden;
+}
+.MomentImg.data-v-90593874 {
+		width: 76rpx;
+		height: 76rpx;
+		border-radius: 50%;
+		margin-right: 10rpx;
+}
+.MomentText.data-v-90593874 {
+		font-size: 32rpx;
+		font-family: Inter-Regular, Inter;
+		margin-top: 20rpx;
+		margin-bottom: 10rpx;
+}
+.Moment_title.data-v-90593874 {
+		font-size: 32rpx;
+		font-weight: 800;
+
+		font-family: Inter-Regular, Inter;
+}
+.Moment_base_sign.data-v-90593874 {
+		font-size: 28rpx;
+		color: #A8A8A8;
+		font-family: Inter-Regular, Inter;
+}
+/* 昵称签名 */
+.MomentIS.data-v-90593874 {
+		border-radius: 8rpx;
+		padding: 4rpx 20rpx;
+		color: #FFFFFF;
+		font-family: Inter-Regular, Inter;
+		background: #F8B800;
+		font-size: 30rpx;
+		line-height: 50rpx;
+}
+.MomentNickname.data-v-90593874 {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+}
+.MomentView.data-v-90593874 {
+		/* display: flex; */
+		margin-bottom: 40rpx;
+		background: #ffffff;
+		border-radius: 32rpx 32rpx 32rpx 32rpx;
+		padding: 22rpx 24rpx;
+		position: relative;
+		top: -60rpx;
+}
+/* 圈子未读消息 */
+.MassageImg.data-v-90593874 {
+		width: 48rpx;
+		height: 48rpx;
+		border-radius: 50%;
+		margin-right: 8rpx;
+}
+.MassageView.data-v-90593874 {
+		padding: 20rpx 20rpx;
+		height: 60rpx;
+		background: #313131;
+		box-shadow: 0px 0px 40px 0px rgba(156, 156, 156, 0.2);
+		border-radius: 50rpx;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: white;
+}
+.toptitle.data-v-90593874{
+		/* background-image: url(http://ysv.zjhaly.top/chulaiwan/active/qztop.png); */
+		background-size: 100% 100%;
+		/* padding: 30rpx; */
+}
+.Massagename.data-v-90593874 {
+		color: #F8B800;
+}
+.Massage.data-v-90593874 {
+		display: flex;
+		justify-content: center;
+		/* margin: 20rpx 0; */
+		margin: 36rpx 0;
+}
+/* 圈子顶部推荐 */
+.Friendjia.data-v-90593874 {
+		width: 34rpx;
+		height: 34rpx;
+		border-radius: 50%;
+		margin-top: -15rpx;
+}
+.FriendSex1.data-v-90593874 {
+
+		border: 6rpx solid #66ADFF;
+}
+.FriendSex0.data-v-90593874 {
+
+		border: 6rpx solid #FF759F;
+}
+.Friendnickname.data-v-90593874 {
+		font-size: 28rpx;
+		width: 136rpx;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		margin-top: 15rpx;
+}
+.Friendheadimg.data-v-90593874 {
+		width: 100rpx;
+		height: 100rpx;
+		border-radius: 50%;
+		display: block;
+}
+.Friend_view.data-v-90593874 {
+		text-align: center;
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+}
+.FriendView.data-v-90593874 {
+		display: flex;
+		justify-content: space-between;
+		/* margin-top: 107rpx; */
+		padding-bottom: 46rpx;
+		/* border-bottom: 2rpx solid #F2F2F2; */
+		padding-left: 30rpx;
+		padding-right: 30rpx;
+		padding-top: 20rpx;
+}
+/* 圈子发布图片 */
+.quanzi.data-v-90593874 {
+		width: 126rpx;
+		height: 64rpx;
+		position: absolute;
+		right: 38rpx;
+		/* top: 14rpx; */
+}
+/* 顶部Tab样式 */
+.quan.data-v-90593874 {
+		width: 36rpx;
+		height: 36rpx;
+		background: rgba(248, 184, 0, 0.5);
+		border-radius: 50%;
+		position: absolute;
+		left: -7rpx;
+		top: 0;
+		z-index: 4;
+}
+.quan1.data-v-90593874 {
+		width: 36rpx;
+		height: 36rpx;
+		background: rgba(248, 184, 0, 0.5);
+		border-radius: 50%;
+		position: absolute;
+		left: -7rpx;
+		top: 0;
+}
+.Tabtext.data-v-90593874 {
+		font-weight: 800;
+		font-size: 37rpx;
+		z-index: 10;
+}
+.Tab_view.data-v-90593874 {
+		position: relative;
+		margin: 8rpx 48rpx;
+}
+.Tab.data-v-90593874 {
+		display: flex;
+		/* justify-content: center; */
+		font-size: 36rpx;
+		/* padding-top: 10rpx; */
+		
+		position: fixed;
+		z-index: 10;
+		/* 未标题-102@2x.png
+		 */
+		
+		/* background-image: url(https://ta.imjiayi.com/upload/upload/%E6%9C%AA%E6%A0%87%E9%A2%98-102@2x.png); */
+		background-size: 100% 100%;
+		top: 0;
+		width: 100%;
+		/* height: 288rpx; */
+}
+.content.data-v-90593874 {
+		/* background: #F2F2F2; */
+		background: #F6F7F9;
+}
+.plist.data-v-90593874{
+		padding: 34rpx 30rpx 200rpx 30rpx;
+}
+.headerimg.data-v-90593874{
+		background-image: url(https://ta.imjiayi.com/upload/upload/5015958ebefce13cb9afaf4ee8efa32.png);
+		background-size: 100% 100%;
+}
+

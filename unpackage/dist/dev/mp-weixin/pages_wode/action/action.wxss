@@ -1,0 +1,378 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/* 当前状态 */
+.status4.data-v-ecda9c3c {
+		position: absolute;
+		bottom: 10rpx;
+		right: 22rpx;
+		/* background: green; */
+		padding: 5rpx 15rpx;
+		border-radius: 60rpx;
+		height: 30rpx;
+		font-size: 25rpx;
+		color: #D24E15;
+		background: #FFD5C3;
+}
+.status3.data-v-ecda9c3c {
+		position: absolute;
+		bottom: 10rpx;
+		right: 22rpx;
+		/* background: green; */
+		padding: 5rpx 15rpx;
+		border-radius: 60rpx;
+
+		background: #EDEDED;
+		color: #878787;
+}
+.statusyqx.data-v-ecda9c3c {
+			position: absolute;
+			bottom: 10rpx;
+			right: 22rpx;
+			border-radius: 60rpx;background: #EDEDED;
+		color: #878787;
+			padding: 9rpx 16rpx;
+		
+			font-size: 20rpx;
+}
+.status2.data-v-ecda9c3c {
+		position: absolute;
+		bottom: 10rpx;
+		right: 22rpx;
+		/* background: green; */
+		padding: 5rpx 15rpx;
+		border-radius: 60rpx;
+
+		color: #BD00FF;
+
+		background: #F3D1FF;
+}
+.status1.data-v-ecda9c3c {
+		position: absolute;
+		bottom: 10rpx;
+		right: 22rpx;
+		/* background: green; */
+		padding: 5rpx 15rpx;
+		border-radius: 60rpx;
+
+		background: #FBEDCD;
+
+		color: #FFB100;
+}
+.statusdpj.data-v-ecda9c3c {
+		position: absolute;
+		bottom: 10rpx;
+		right: 22rpx;
+		border-radius: 60rpx;background: #FFD5C3;
+	color: #D24E15;
+		padding: 9rpx 16rpx;
+	
+		font-size: 20rpx;
+}
+.status0.data-v-ecda9c3c {
+		position: absolute;
+		bottom: 10rpx;
+		right: 22rpx;
+		border-radius: 60rpx;
+		background: #E6FCC2;
+		color: #71B600;
+		
+		padding: 9rpx 16rpx;
+	
+		font-size: 20rpx;
+}
+	/* 参与人数 */
+.Group_right.data-v-ecda9c3c {
+		font-size: 24rpx;
+		color: #939393;
+}
+.group_img.data-v-ecda9c3c {
+		margin-right: -22rpx;
+		width: 44rpx;
+		height: 44rpx;
+		border-radius: 50%;
+}
+.Group_left.data-v-ecda9c3c {
+		display: flex;
+		align-items: center;
+		position: relative
+}
+.Group.data-v-ecda9c3c {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+}
+	/* 参与时间*/
+.ActRight_time_money.data-v-ecda9c3c {
+		font-size: 28rpx;
+		color: #F8B800;
+}
+.ActRight_time_name.data-v-ecda9c3c {
+		font-size: 20rpx;
+}
+.ActRight_time_Img.data-v-ecda9c3c {
+		width: 32rpx;
+		height: 32rpx;
+}
+.ActRight_time_left.data-v-ecda9c3c {
+		display: flex;
+		align-items: center;
+}
+.ActRight_time.data-v-ecda9c3c {
+		display: flex;
+		justify-content: space-between;
+		margin: 8rpx 0;
+}
+.ActRight_address.data-v-ecda9c3c {
+		font-size: 24rpx;
+		color: #939393;
+		white-space: nowrap;
+		width: 410rpx;
+		overflow: hidden;
+		text-overflow: ellipsis;
+
+		margin: 8rpx 0;
+}
+.ActRight_title.data-v-ecda9c3c {
+		font-size: 32rpx;
+		font-weight: 800;
+		white-space: nowrap;
+		width: 410rpx;
+		overflow: hidden;
+		text-overflow: ellipsis;
+}
+.ActRight.data-v-ecda9c3c {
+		margin-left: 12rpx;
+		font-family: Inter-Regular, Inter;
+}
+.ActImg.data-v-ecda9c3c {
+		width: 208rpx;
+		height: 218rpx;
+}
+.Act.data-v-ecda9c3c {
+		background: #FFFFFF;
+		box-shadow: 0rpx 0rpx 30rpx 0rpx rgba(17, 17, 17, 0.05);
+		border-radius: 20rpx;
+		margin: 16rpx 0;
+		padding: 18rpx 22rpx;
+		display: flex;
+		position: relative;
+}
+.actionTrue.data-v-ecda9c3c {
+		font-weight: 800;
+}
+.actionView.data-v-ecda9c3c {
+		display: flex;
+		align-items: center;
+		position: relative;
+}
+.huang.data-v-ecda9c3c {
+		width: 36rpx;
+		height: 36rpx;
+		background-color: rgba(248, 184, 0, 0.4);
+		position: absolute;
+		border-radius: 50%;
+		top: -5rpx;
+		left: -10rpx;
+}
+.action.data-v-ecda9c3c {
+		display: flex;
+		justify-content: space-around;
+		font-size: 32rpx;
+}
+.content.data-v-ecda9c3c {
+		padding: 40rpx;
+}
+

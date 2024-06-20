@@ -1,0 +1,82 @@
+
+.btn.data-v-b4b08882 {
+	width: 376rpx;
+	height: 74rpx;
+	color: white;
+	margin-top: 84rpx;
+	margin-bottom: 40rpx;
+	background: #000000;
+	font-size: 35rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: Inter-Regular, Inter;
+	box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
+	border-radius: 8rpx;
+	opacity: 1;
+}
+.acte_remark.data-v-b4b08882 {
+	font-size: 26rpx;
+	color: #575757;
+	margin-top: 14rpx;
+}
+.acte_name.data-v-b4b08882 {
+	font-size: 44rpx;
+	font-family: Inter-Regular, Inter;
+}
+.acte_view.data-v-b4b08882 {
+	margin-left: 34rpx;
+}
+.acteimg.data-v-b4b08882 {
+	width: 226rpx;
+	height: 154rpx;
+	border-radius: 20rpx;
+}
+.tabitem.data-v-b4b08882 {
+	display: flex;
+	align-items: center;
+	border: 1rpx solid rgba(255, 255, 255, 0);
+	margin-bottom: 14rpx;
+	padding: 16rpx 20rpx 20rpx 24rpx;
+}
+.acc.data-v-b4b08882 {
+
+	border: 1px solid #F8B800;
+	border-radius: 20rpx;
+	background: #FFFFFF;
+	color: #F8B800;
+	font-weight: 800;
+}
+.title.data-v-b4b08882 {
+	padding-left: 26rpx;
+	margin-bottom: 32rpx;
+	font-size: 36rpx;
+	font-family: Inter-Regular, Inter;
+}
+.center.data-v-b4b08882 {
+	padding-left: 36rpx;
+	padding-right: 36rpx;
+	margin-top: 54rpx;
+}
+.yindao1.data-v-b4b08882 {
+	width: 200rpx;
+	height: 330rpx;
+	right: 0;
+	position: absolute;
+	top: 0;
+}
+.yindao2.data-v-b4b08882 {
+	width: 358rpx;
+	height: 250rpx;
+	position: absolute;
+	top: 138rpx;
+	left: 36rpx;
+}
+.BJview.data-v-b4b08882 {
+	height: 365rpx;
+	position: relative;
+}
+.content.data-v-b4b08882 {
+	position: relative;
+}
+

@@ -1,0 +1,249 @@
+
+.NavName.data-v-0be17cc6{
+	font-size: 25rpx;
+	margin-top: 15rpx;
+}
+.myxaiosa.data-v-0be17cc6{
+	position: fixed;right: 30rpx;bottom: 180rpx;z-index: 1000;
+}
+/* 个人中心 */
+.RightTopGren.data-v-0be17cc6{
+	    position: absolute;
+	    top: 188rpx;
+	    right: 0rpx;
+	    width: 180rpx;
+	    height: 61rpx;
+}
+/* 右上角按钮图片 */
+.RightTopImg.data-v-0be17cc6 {
+	width: 52rpx;
+	height: 54rpx;
+}
+.RightTop.data-v-0be17cc6 {
+	position: absolute;
+	top: 32rpx;
+	right: 20rpx;
+	width: 120rpx;
+	display: flex;
+	justify-content: space-between;
+}
+/* 实名认证 */
+.renzhengView.data-v-0be17cc6 {
+	display: flex;
+	align-items: center;
+	font-size: 20rpx;
+	position: absolute;
+	border-radius: 34rpx;
+	background: #414141;
+	color: #FFFFFF;
+	width: 124rpx;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	left: 26rpx;
+	bottom: -9rpx;
+}
+.renzheng.data-v-0be17cc6 {
+	width: 20rpx;
+	height: 20rpx;
+	margin-right: 4rpx;
+}
+/* 自定义背景按钮 */
+.MyBtn.data-v-0be17cc6 {
+	height: 110rpx;
+	width: 100%;
+}
+.MyBtnView.data-v-0be17cc6 {
+	padding: 0 40rpx;
+	margin: 50rpx 0;
+}
+/* 背景图片更换 */
+.Scrollxuanzhong.data-v-0be17cc6 {
+	width: 74rpx;
+	height: 54rpx;
+	position: absolute;
+	right: 0;
+	bottom: 12rpx;
+}
+.ScrollImg.data-v-0be17cc6 {
+	width: 320rpx;
+	height: 210rpx;
+	border-radius: 22rpx;
+}
+.ScrollView.data-v-0be17cc6 {
+	position: relative;
+	margin-right: 24rpx;
+	display: inline-block;
+}
+.Scroll.data-v-0be17cc6 {
+	white-space: nowrap;
+	padding-left: 40rpx;
+}
+.TTViewTitle.data-v-0be17cc6 {
+	font-size: 40rpx;
+	text-align: center;
+	margin: 44rpx 0;
+	font-weight: 800;
+}
+.TTView.data-v-0be17cc6 {
+	background-color: white;
+	height: 590rpx;
+	border-radius: 50rpx 50rpx 0 0;
+	z-index: 26;
+	position: fixed;
+	bottom: 49px;
+	left: 0;
+	right: 0;
+	-webkit-animation: KK-data-v-0be17cc6 1s linear;
+	        animation: KK-data-v-0be17cc6 1s linear;
+}
+@-webkit-keyframes KK-data-v-0be17cc6 {
+from {
+		-webkit-transform: translateY(1000px);
+		        transform: translateY(1000px);
+}
+to {
+		-webkit-transform: translateY(0px);
+		        transform: translateY(0px);
+}
+}
+@keyframes KK-data-v-0be17cc6 {
+from {
+		-webkit-transform: translateY(1000px);
+		        transform: translateY(1000px);
+}
+to {
+		-webkit-transform: translateY(0px);
+		        transform: translateY(0px);
+}
+}
+.TT.data-v-0be17cc6 {
+	position: fixed;
+	background: rgba(0, 0, 0, 0.3);
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 25;
+}
+/* 头像关注 */
+.AvatarTow.data-v-0be17cc6 {
+	position: relative;
+}
+.AvatarName.data-v-0be17cc6 {
+	font-size: 32rpx;
+}
+.AvatarNametitle.data-v-0be17cc6 {
+	font-size: 28rpx;
+	color: #555555;
+}
+.AvatarViewContent.data-v-0be17cc6 {
+	text-align: center;
+}
+.AvatarTitle.data-v-0be17cc6 {
+	font-size: 28rpx;
+	color: white;
+}
+.AvatarNum.data-v-0be17cc6 {
+	color: white;
+	font-size: 32rpx;
+	font-weight: bold;
+}
+.AvatarName.data-v-0be17cc6 {
+	display: flex;
+	align-items: center;
+}
+.Avatarbinaji.data-v-0be17cc6 {
+	width: 28rpx;
+	height: 28rpx;
+	margin-left: 6rpx;
+}
+.AvatarXVIP.data-v-0be17cc6 {
+	width: 70rpx;
+	height: 32rpx;
+	margin-left: 6rpx;
+}
+.AvatarView.data-v-0be17cc6 {
+	display: flex;
+	justify-content: space-around;
+}
+.AvatarRight.data-v-0be17cc6 {
+	width: 518rpx;
+	display: flex;
+	height: 211rpx;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.AvatarKuang.data-v-0be17cc6 {
+	width: 204rpx;
+	height: 221rpx;
+	left: -14rpx;
+	position: absolute;
+	top: -36rpx;
+}
+.AvatarImg.data-v-0be17cc6 {
+	width: 180rpx;
+	height: 180rpx;
+	border-radius: 50%;
+	background-image: url(https://ta.imjiayi.com/upload/upload/5015958ebefce13cb9afaf4ee8efa32.png);
+	background-size: 100% 100%;
+}
+.Avatar.data-v-0be17cc6 {
+	height: 221rpx;
+	display: flex;
+	align-items: center;
+	position: absolute;
+	top: -112rpx;
+}
+/* 八大跳转 */
+.NavImg.data-v-0be17cc6 {
+	width: 70rpx;
+	height: 64rpx;
+}
+.NavView.data-v-0be17cc6 {
+	text-align: center;
+	/* width: 160rpx; */
+	width: 25%;
+	margin: 24rpx 0;
+}
+.Nav.data-v-0be17cc6 {
+	display: flex;
+	flex-wrap: wrap;
+	width:25%;
+}
+/* 会员中心 */
+.VIP.data-v-0be17cc6 {
+	width: 100%;
+	height: 104.92rpx;
+	margin-top: 50rpx;
+}
+/* 往期活动 */
+.Wangqi.data-v-0be17cc6 {
+	width: 100%;
+	height: 276rpx;
+}
+/* 背景 */
+.MyView.data-v-0be17cc6 {
+	background-color: white;
+	border-radius: 60rpx 60rpx 0 0;
+	/* width: 100%; */
+	/* height: 600rpx; */
+	z-index: 21 !important;
+	padding: 114rpx 40rpx 0 40rpx;
+	position: relative;
+}
+/* 背景图片 */
+.Mybeijing.data-v-0be17cc6 {
+	width: 100%;
+	height: 500rpx;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 0 !important;
+}
+.content.data-v-0be17cc6 {
+	padding-top: 400rpx;
+	padding-bottom: 200rpx;
+}
+

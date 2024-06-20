@@ -1,0 +1,55 @@
+
+.Btn.data-v-36f85cfc {
+	width: 160rpx;
+	height: 56rpx;
+	color: white;
+	font-size: 30rpx;
+	background: #FFC803;
+	border-radius: 6px 6px 6px 6px;
+	opacity: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.VIP.data-v-36f85cfc {
+
+	color: #F8B800 !important;
+}
+.FollowLeftName.data-v-36f85cfc {
+	display: flex;
+	align-items: center;
+	font-size: 36rpx;
+	font-family: Inter-Regular, Inter;
+}
+.FollowLeft.data-v-36f85cfc {
+	display: flex;
+	align-items: center;
+}
+.XVIP.data-v-36f85cfc {
+	width: 70rpx;
+	height: 32rpx;
+	margin-left: 12rpx;
+}
+.headimg.data-v-36f85cfc {
+	width: 80rpx;
+	height: 80rpx;
+	border-radius: 50%;
+	margin-right: 16rpx;
+}
+.Follow.data-v-36f85cfc:last-child {
+	border-bottom: none !important;
+}
+.Follow.data-v-36f85cfc {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20rpx 0;
+	border-bottom: 1rpx solid #F1F1F1;
+}
+.content.data-v-36f85cfc {
+	padding: 40rpx;
+}
+

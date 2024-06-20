@@ -1,0 +1,457 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "出来玩"
+			}
+		},
+		
+		{
+			"path": "pages/Login/Login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false
+			}
+		}
+
+
+
+		,
+
+		{
+			"path": "pages/activity/activity",
+			"style": {
+				"navigationBarTitleText": "活动",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/circle/circle",
+			"style": {
+				"navigationBarTitleText": "圈子",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/Group/Group",
+			"style": {
+				"navigationBarTitleText": "发布活动",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "活动",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Groupaddress/Groupaddress",
+			"style": {
+				"navigationBarTitleText": "自定义位置",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/shangjiaAddress/shangjiaAddress",
+			"style": {
+				"navigationBarTitleText": "选择商家",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/shangjiaAddressDetail/shangjiaAddressDetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages1/shopAdd/shopAdd",
+			"style": {
+				"navigationBarTitleText": "商家入驻",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages1/cs/cs",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages1/Test/Test",
+			"style": {
+				"navigationBarTitleText": "测试",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages1/qiandao/qiandao",
+			"style": {
+				"navigationBarTitleText": "签到",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages1/activityWQList/activityWQList",
+			"style": {
+				"navigationBarTitleText": "往期活动",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages1/wqActivity/wqActivity",
+			"style": {
+				"navigationBarTitleText": "活动详情",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	    
+    ],
+	"tabBar": {
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页"
+			}, 
+			{
+				"pagePath": "pages/activity/activity",
+				"text": "活动"
+			},
+			{
+				"pagePath": "pages/circle/circle",
+				"text": "圈子"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的"
+			}
+		]
+	},
+	"subPackages": [
+		// {
+		// 	"root": "pages_shouye",
+		// 	"pages": [
+		// 		{
+		// 			"path": "index/index",
+		// 			"style": {
+		// 				"navigationBarTitleText": "",
+		// 				"enablePullDownRefresh": false
+		// 			}
+
+		// 		}
+		// 	]
+		// },
+		{
+			"root": "pages_huodong",
+			"pages": [
+
+				{
+					"path": "SixModules/SixModules",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": true
+					}
+
+				}, {
+					"path": "address/address",
+					"style": {
+						"navigationBarTitleText": "所在位置",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "shop/shop",
+					"style": {
+						"navigationBarTitleText": "商家详情",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "Detail/Detail",
+					"style": {
+						"navigationBarTitleText": "商家详情",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "ActivityDetail/ActivityDetail",
+					"style": {
+						"navigationBarTitleText": "活动详情",
+						"enablePullDownRefresh": true
+					}
+
+				}, {
+					"path": "SginIn/SginIn",
+					"style": {
+						"navigationBarTitleText": "队员签到",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "pay/pay",
+					"style": {
+						"navigationBarTitleText": "支付",
+						"enablePullDownRefresh": false
+					}
+
+				}
+			]
+		},
+		{
+			"root": "pages_quanzi",
+			"pages": [
+
+				{
+					"path": "criclleDetal/criclleDetal",
+					"style": {
+						"navigationBarTitleText": "圈子详情",
+						"enablePullDownRefresh": true
+					}
+
+				}, {
+					"path": "release/release",
+					"style": {
+						"navigationBarTitleText": "发布圈子",
+						"enablePullDownRefresh": false
+					}
+
+				}
+			]
+		},
+		{
+			"root": "pages_wode",
+			"pages": [
+
+				// {
+				// 	"path": "index/index",
+				// 	"style": {
+				// 		"navigationBarTitleText": "个人中心",
+				// 		"enablePullDownRefresh": false
+				// 	}
+
+				// },
+				{
+					"path": "RealName/RealName",
+					"style": {
+						"navigationBarTitleText": "实名认证",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "action/action",
+					"style": {
+						"navigationBarTitleText": "活动中心",
+						"enablePullDownRefresh": true
+					}
+				}, {
+					"path": "notification/notification",
+					"style": {
+						"navigationBarTitleText": "消息通知",
+						"enablePullDownRefresh": true,
+						"navigationStyle": "custom"
+					}
+
+				}, {
+					"path": "follow/follow",
+					"style": {
+						"navigationBarTitleText": "关注列表",
+						"enablePullDownRefresh": true
+					}
+
+				}, {
+					"path": "Fans/Fans",
+					"style": {
+						"navigationBarTitleText": "粉丝列表",
+						"enablePullDownRefresh": true
+					}
+
+				}, {
+					"path": "Activity/Activity",
+					"style": {
+						"navigationBarTitleText": "活跃度",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "Feedback/Feedback",
+					"style": {
+						"navigationBarTitleText": "意见反馈",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "userInfoEdit/userInfoEdit",
+					"style": {
+						"navigationBarTitleText": "编辑资料",
+						"enablePullDownRefresh": false
+					}
+
+				}
+
+				, {
+					"path": "system/system",
+					"style": {
+						"navigationBarTitleText": "系统设置",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "xieyi/xieyi",
+					"style": {
+						"navigationBarTitleText": "隐私协议",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "blacklist/blacklist",
+					"style": {
+						"navigationBarTitleText": "黑名单",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "PersonalCenter/PersonalCenter",
+					"style": {
+						"navigationBarTitleText": "个人中心",
+						"enablePullDownRefresh": true
+					}
+
+				}, {
+					"path": "PastActlist/PastActlist",
+					"style": {
+						"navigationBarTitleText": "往期活动",
+						"enablePullDownRefresh": true,
+						"navigationStyle": "custom"
+					}
+
+				}, {
+					"path": "PastDetail/PastDetail",
+					"style": {
+						"navigationBarTitleText": "详情",
+						"enablePullDownRefresh": true
+					}
+
+				}, {
+					"path": "Evaluate/Evaluate",
+					"style": {
+						"navigationBarTitleText": "评价中心",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "vip/vip",
+					"style": {
+						"navigationBarTitleText": "会员中心",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+
+				}, {
+					"path": "shimingRenzheng/shimingRenzheng",
+					"style": {
+						"navigationBarTitleText": "实名认证",
+						"enablePullDownRefresh": false
+					}
+
+				}
+			]
+		},
+		{
+			"root": "pages_my",
+			"pages": [
+
+				{
+					"path": "vipcenter/vipcenter",
+					"style": {
+						"navigationBarTitleText": "会员中心",
+						"enablePullDownRefresh": false
+					}
+
+				},
+				{
+					"path": "SignIn/SignIn",
+					"style": {
+						"navigationBarTitleText": "签到",
+						"enablePullDownRefresh": false
+					}
+
+				}
+
+			]
+		},
+		{
+			"root": "pages_yindao",
+			"pages": [
+
+				{
+					"path": "yindao1/yindao1",
+					"style": {
+						"navigationBarTitleText": "注册",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "yindao2/yindao2",
+					"style": {
+						"navigationBarTitleText": "注册",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "yindao3/yindao3",
+					"style": {
+						"navigationBarTitleText": "注册",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "yindao4/yindao4",
+					"style": {
+						"navigationBarTitleText": "注册",
+						"enablePullDownRefresh": false
+					}
+
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+
+	"permission": {
+		"scope.userLocation": {
+			"desc": "你的位置信息将用于小程序位置接口的"
+		}
+	},
+
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	},
+	"darkmode": true
+}

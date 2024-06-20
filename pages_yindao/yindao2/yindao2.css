@@ -1,0 +1,190 @@
+page {
+	background-color: #F6F6F8;
+}
+
+.pagensa {
+	width: 750rpx;
+	height: 100vh;
+	background-color: #F6F6F8;
+	position: fixed;
+	left: 0rpx;
+	top: 0rpx;
+	z-index: 1;
+}
+
+.topima {
+	width: 750rpx;
+	height: 751rpx;
+	background-image: url(https://ta.imjiayi.com/upload/upload/chongfu/01 1@2x.png);
+	background-size: 100% 100%;
+	z-index: 100;
+}
+
+.bianjiziliao {
+	height: 62rpx;
+	font-size: 52rpx;
+	font-family: Inter-Regular, Inter;
+	font-weight: 400;
+	color: #000000;
+	line-height: 61rpx;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+/* 老UI */
+.X {
+		position: absolute;
+		top: -15rpx;
+		right: 5rpx;
+		background: firebrick;
+		color: white;
+		border-radius: 50%;
+		/* padding: 0 2rpx; */
+		width: 36rpx;
+		height: 36rpx;
+		font-size: 28rpx;
+		text-align: center;
+		line-height: 36rpx;
+	}
+
+	.btn1 {
+		width: 660rpx;
+		height: 110rpx;
+		background: #FFC803;
+		box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
+		border-radius: 12px 12px 12px 12px;
+		color: white;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 52rpx;
+		margin-top: 84rpx;
+
+	}
+
+.xiayibu {
+	width: 662rpx;
+	height: 120rpx;
+	background: #000000;
+	border-radius: 20rpx 20rpx 20rpx 20rpx;
+	opacity: 1;
+	color: #F8B800;
+	text-align: center;
+	line-height: 120rpx;
+	z-index: 100;
+}
+
+	.btn {
+		width: 376rpx;
+		height: 76rpx;
+		color: white;
+		margin-top: 84rpx;
+		background: #000000;
+		box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
+		border-radius: 8rpx;
+		opacity: 1;
+		display: flex;
+		align-items: center;
+		/* text-align: center; */
+		justify-content: center;
+	}
+
+	.tabitem {
+		border-radius: 10rpx;
+		/* border: 1rpx solid #DBDBDB; */
+		background: #FAFAFA;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-right: 16rpx;
+		margin-bottom: 20rpx;
+		font-size: 36rpx;
+		padding: 14rpx 28rpx;
+	}
+
+	.tab {
+		padding: 29rpx 31rpx 38rpx;
+		/* height: 434rpx; */
+		background: #FAFAFA;
+		display: flex;
+		flex-wrap: wrap;
+		/* justify-content: space-between; */
+		text-align: center;
+
+	}
+
+	.acc {
+
+		border: 1px solid #F8B800;
+
+		background: #FFFAED;
+		color: #F8B800;
+	}
+   
+	.title1 {
+		padding-left: 26rpx;
+		margin-bottom: 32rpx;
+		font-size: 36rpx;
+		font-family: Inter-Regular, Inter;
+		display: flex;
+		justify-content: space-between;
+	}
+	.title1>view:nth-child(2){
+		color:#e87f0d;
+	}
+	.title {
+		padding-left: 26rpx;
+		margin-bottom: 32rpx;
+		font-size: 36rpx;
+		font-family: Inter-Regular, Inter;
+	}
+
+	.center1 {
+		padding-left: 36rpx;
+		padding-right: 36rpx;
+		padding-top: 50rpx;
+	}
+
+	.center {
+		padding-left: 36rpx;
+		padding-right: 36rpx;
+		margin-top: 104rpx;
+		margin-top: 104rpx;
+	}
+
+	.yindao1 {
+		width: 200rpx;
+		height: 330rpx;
+		right: 0;
+		position: absolute;
+		top: 0;
+	}
+
+	.yindao2 {
+		width: 326rpx;
+		height: 232rpx;
+		position: absolute;
+		top: 138rpx;
+		left: 36rpx;
+
+	}
+
+	.BJview {
+		height: 365rpx;
+		position: relative;
+	}
+
+	.content {
+		position: relative;
+		background: #F8F8F8;
+		padding-bottom: 70rpx;
+		height: 100vh;
+	}

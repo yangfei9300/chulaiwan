@@ -1,0 +1,935 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 昵称签名 */
+.MomentIS.data-v-5a3d4689 {
+	border-radius: 8rpx;
+	padding: 4rpx 20rpx;
+	color: #FFFFFF;
+	font-family: Inter-Regular, Inter;
+	background: #F8B800;
+	font-size: 30rpx;
+	line-height: 50rpx;
+}
+.pinglun.data-v-5a3d4689{
+	font-size: 28rpx;
+	color: #AEAEAE;
+}
+.huifu.data-v-5a3d4689{
+	margin-left:12rpx;
+}
+/* 回复评论 */
+.ReplyComment_btn.data-v-5a3d4689 {
+	width: 164rpx;
+	height: 72rpx;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #F8B800;
+	border-radius: 16rpx;
+}
+.ReplyComment_input.data-v-5a3d4689 {
+	border: 1rpx solid #999;
+	background: #F6F6F6;
+	width: 500rpx;
+	height: 72rpx;
+	border-radius: 16rpx;
+}
+.ReplyComment.data-v-5a3d4689 {
+	display: flex;
+	align-items: center;
+	padding-left: 40rpx;
+	padding-right: 26rpx;
+	justify-content: space-between;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 10rpx;
+}
+/* 评论 */
+.ComMent.data-v-5a3d4689 {
+	font-size: 32rpx;
+	color: #3A3A3A;
+	margin-top: 14rpx;
+}
+.ComNickname.data-v-5a3d4689 {
+	color: #AEAEAE;
+	font-size: 28rpx;
+}
+.ComRight.data-v-5a3d4689 {
+	margin-left: 16rpx;
+}
+.ComImg.data-v-5a3d4689 {
+	width: 68rpx;
+	height: 68rpx;
+	border-radius: 50%;
+}
+.ComView.data-v-5a3d4689 {
+	display: flex;
+	/* border-bottom: 1rpx solid #f3f3f3; */
+	padding-bottom: 26rpx;
+	/* margin-bottom: 26rpx; */
+	margin-top: 26rpx;
+}
+.Com_title.data-v-5a3d4689 {
+	font-size: 32rpx;
+	font-weight: 800;
+	margin: 24rpx 0;
+}
+.Com.data-v-5a3d4689 {
+	padding-left: 30rpx;
+	padding-right: 30rpx;
+	padding-bottom: 36rpx;
+}
+/* 粗线 */
+.cuxian.data-v-5a3d4689 {
+	height: 16rpx;
+	background: #F6F6F6;
+}
+/* 点赞排列头像 */
+.Detailheadimg.data-v-5a3d4689 {
+	width: 64rpx;
+	height: 64rpx;
+	display: inline-block;
+	border-radius: 50%;
+	margin-right: 16rpx;
+}
+.DetailPeopleScoll.data-v-5a3d4689 {
+	white-space: nowrap;
+	width: 550rpx;
+	height: 64rpx;
+}
+.DetailPeopleIMG.data-v-5a3d4689 {
+	width: 48rpx;
+	height: 48rpx;
+	margin-right: 24rpx;
+}
+.DetailPeople.data-v-5a3d4689 {
+	display: flex;
+	align-items: center;
+	background: #F3F3F3;
+	border-radius: 16rpx;
+	padding: 10rpx 30rpx;
+	margin-top: 22rpx;
+	margin-bottom: 48rpx;
+	margin-left: 30rpx;
+	margin-right: 30rpx;
+}
+/* 点赞 */
+.Detail_LikeImg.data-v-5a3d4689 {
+	width: 48rpx;
+	height: 48rpx;
+	margin-right: 4rpx;
+}
+.Detail_LikeView.data-v-5a3d4689 {
+	display: flex;
+	align-items: center;
+	font-size: 28rpx;
+	color: #A8A8A8;
+	margin-right: 20rpx;
+}
+.Detail_Like.data-v-5a3d4689 {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+/* 标签 */
+.Marksitem.data-v-5a3d4689 {
+	padding: 6rpx 20rpx;
+	border-radius: 8rpx;
+	background-color: #f5f5f5;
+	color: #000000;
+	margin-right: 16rpx;
+	display: inline-block;
+	font-size: 25rpx;
+}
+.Detail_Marks.data-v-5a3d4689 {
+	white-space: nowrap;
+}
+/* 位置信息 */
+.addressImg.data-v-5a3d4689 {
+	width: 30rpx;
+	height: 30rpx;
+	margin-right: 4rpx;
+}
+.Detail_address.data-v-5a3d4689 {
+	color: #A8A8A8;
+	font-size: 28rpx;
+	display: flex;
+	align-items: center;
+	margin: 16rpx 0;
+}
+/* 昵称 时间 个签 */
+.Detail_text.data-v-5a3d4689 {
+	font-size: 32rpx;
+	margin-top: 20rpx;
+}
+.Detail_time.data-v-5a3d4689 {
+	font-size: 28rpx;
+	color: #A8A8A8;
+	width: 600rpx;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.Detail_nickname.data-v-5a3d4689 {
+	font-size: 32rpx;
+}
+/* 发布图片 */
+.MomentPhoto.data-v-5a3d4689 {
+	width: 196rpx;
+	height: 196rpx;
+	border-radius: 12rpx;
+	margin-right: 7rpx;
+	margin-top: 8rpx;
+}
+.MomentPhoto5.data-v-5a3d4689 {
+	width: 196rpx;
+	height: 196rpx;
+	border-radius: 12rpx;
+	margin-right: 7rpx;
+	margin-top: 8rpx;
+}
+.MomentPhoto4.data-v-5a3d4689 {
+	width: 196rpx;
+	height: 196rpx;
+	border-radius: 12rpx;
+	margin-right: 8rpx;
+	margin-top: 8rpx;
+}
+/* 头像 */
+.Detail_headimg.data-v-5a3d4689 {
+	width: 64rpx;
+	height: 64rpx;
+	border-radius: 50%;
+	margin-right: 10rpx;
+}
+/* 详情右侧内容 */
+.Detail_right.data-v-5a3d4689 {
+	width: 600rpx;
+}
+.Detail.data-v-5a3d4689 {
+	display: flex;
+	padding-left: 30rpx;
+	padding-right: 30rpx;
+	padding-top: 20rpx;
+}
+.content.data-v-5a3d4689 {
+
+	font-family: Inter-Regular, Inter;
+}
+
