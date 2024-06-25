@@ -2,8 +2,8 @@ var fileHost = 'https://jiayiwangluo.oss-cn-beijing.aliyuncs.com/';//你的阿�
 var config = {
    //aliyun OSS config
   uploadImageUrl: `${fileHost}`, // 默认存在根目录，可根据需求改
-  AccessKeySecret: 'BGovuBkuAej0VHcFOG2Ihgz9Uc99xk',        // AccessKeySecret 去你的阿里云上控制台上找
-  OSSAccessKeyId: 'LTAI5tKVVkxMCWzK8892x2Q2',         // AccessKeyId 去你的阿里云上控制台上找
+  AccessKeySecret: 'KYce2OFA723k8alU6R8nNkC5MmGGdH',        // AccessKeySecret 去你的阿里云上控制台上找
+  OSSAccessKeyId: 'LTAI5tNLi8CLPgrsSDCw1xJo',         // AccessKeyId 去你的阿里云上控制台上找
    timeout: 87600 //这个是上传文件时Policy的失效时间
 };
 module.exports = config

@@ -2656,9 +2656,9 @@ module.exports = _iterableToArray, module.exports.__esModule = true, module.expo
 /***/ }),
 
 /***/ 202:
-/*!*******************************************************************!*\
-  !*** F:/project/chulaiwan(小程序最新)最新（海景0529）/components/uqrcode.js ***!
-  \*******************************************************************/
+/*!**************************************************!*\
+  !*** F:/project/chulaiwan/components/uqrcode.js ***!
+  \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10692,9 +10692,9 @@ internalMixin(Vue);
 /***/ }),
 
 /***/ 26:
-/*!********************************************************!*\
-  !*** F:/project/chulaiwan(小程序最新)最新（海景0529）/pages.json ***!
-  \********************************************************/
+/*!***************************************!*\
+  !*** F:/project/chulaiwan/pages.json ***!
+  \***************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -10866,9 +10866,9 @@ function normalizeComponent (
 /***/ }),
 
 /***/ 39:
-/*!*****************************************************************!*\
-  !*** F:/project/chulaiwan(小程序最新)最新（海景0529）/libs/amap-wx.130.js ***!
-  \*****************************************************************/
+/*!************************************************!*\
+  !*** F:/project/chulaiwan/libs/amap-wx.130.js ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11540,9 +11540,9 @@ module.exports = _interopRequireDefault, module.exports.__esModule = true, modul
 /***/ }),
 
 /***/ 456:
-/*!*************************************************************************************************!*\
-  !*** F:/project/chulaiwan(小程序最新)最新（海景0529）/uni_modules/uni-icons/components/uni-icons/icons.js ***!
-  \*************************************************************************************************/
+/*!********************************************************************************!*\
+  !*** F:/project/chulaiwan/uni_modules/uni-icons/components/uni-icons/icons.js ***!
+  \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12634,9 +12634,9 @@ module.exports = _iterableToArrayLimit, module.exports.__esModule = true, module
 /***/ }),
 
 /***/ 72:
-/*!*******************************************************************************************!*\
-  !*** F:/project/chulaiwan(小程序最新)最新（海景0529）/js_sdk/yushijie-ossutil/ossutil/uploadFile.js ***!
-  \*******************************************************************************************/
+/*!**************************************************************************!*\
+  !*** F:/project/chulaiwan/js_sdk/yushijie-ossutil/ossutil/uploadFile.js ***!
+  \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12733,9 +12733,9 @@ module.exports = uploadFile;
 /***/ }),
 
 /***/ 73:
-/*!***************************************************************************************!*\
-  !*** F:/project/chulaiwan(小程序最新)最新（海景0529）/js_sdk/yushijie-ossutil/ossutil/config.js ***!
-  \***************************************************************************************/
+/*!**********************************************************************!*\
+  !*** F:/project/chulaiwan/js_sdk/yushijie-ossutil/ossutil/config.js ***!
+  \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -12744,9 +12744,9 @@ var config = {
   //aliyun OSS config
   uploadImageUrl: "".concat(fileHost),
   // 默认存在根目录，可根据需求改
-  AccessKeySecret: 'BGovuBkuAej0VHcFOG2Ihgz9Uc99xk',
+  AccessKeySecret: 'KYce2OFA723k8alU6R8nNkC5MmGGdH',
   // AccessKeySecret 去你的阿里云上控制台上找
-  OSSAccessKeyId: 'LTAI5tKVVkxMCWzK8892x2Q2',
+  OSSAccessKeyId: 'LTAI5tNLi8CLPgrsSDCw1xJo',
   // AccessKeyId 去你的阿里云上控制台上找
   timeout: 87600 //这个是上传文件时Policy的失效时间
 };
@@ -12756,9 +12756,9 @@ module.exports = config;
 /***/ }),
 
 /***/ 74:
-/*!***************************************************************************************!*\
-  !*** F:/project/chulaiwan(小程序最新)最新（海景0529）/js_sdk/yushijie-ossutil/ossutil/base64.js ***!
-  \***************************************************************************************/
+/*!**********************************************************************!*\
+  !*** F:/project/chulaiwan/js_sdk/yushijie-ossutil/ossutil/base64.js ***!
+  \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -12896,9 +12896,9 @@ module.exports = {
 /***/ }),
 
 /***/ 75:
-/*!*************************************************************************************!*\
-  !*** F:/project/chulaiwan(小程序最新)最新（海景0529）/js_sdk/yushijie-ossutil/ossutil/hmac.js ***!
-  \*************************************************************************************/
+/*!********************************************************************!*\
+  !*** F:/project/chulaiwan/js_sdk/yushijie-ossutil/ossutil/hmac.js ***!
+  \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12932,9 +12932,9 @@ module.exports = Crypto;
 /***/ }),
 
 /***/ 76:
-/*!***************************************************************************************!*\
-  !*** F:/project/chulaiwan(小程序最新)最新（海景0529）/js_sdk/yushijie-ossutil/ossutil/crypto.js ***!
-  \***************************************************************************************/
+/*!**********************************************************************!*\
+  !*** F:/project/chulaiwan/js_sdk/yushijie-ossutil/ossutil/crypto.js ***!
+  \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -13094,9 +13094,9 @@ module.exports = Crypto;
 /***/ }),
 
 /***/ 77:
-/*!*************************************************************************************!*\
-  !*** F:/project/chulaiwan(小程序最新)最新（海景0529）/js_sdk/yushijie-ossutil/ossutil/sha1.js ***!
-  \*************************************************************************************/
+/*!********************************************************************!*\
+  !*** F:/project/chulaiwan/js_sdk/yushijie-ossutil/ossutil/sha1.js ***!
+  \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 

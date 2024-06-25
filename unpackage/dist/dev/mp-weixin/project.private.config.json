@@ -3,5 +3,18 @@
   "projectname": "chulaiwan11",
   "setting": {
     "compileHotReLoad": true
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages_yindao/yindao1/yindao1",
+          "pathName": "pages_yindao/yindao1/yindao1",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
   }
 }
