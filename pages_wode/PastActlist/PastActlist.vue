@@ -32,7 +32,6 @@
 				<view class="PastRight colonn rowsb h-200">
 					<view class="PastRight_Title">{{ item.title }}</view>
 					<view class="PastRight_address">地址:{{ item.address }}</view>
-
 					<view class="PastRight_flex">
 						<view class="PastRight_flex_left">
 							<image class="PastRight_flex_left_img" src="../static/wangqiNum.png" mode=""></image>
@@ -40,7 +39,6 @@
 						</view>
 						<view class="PastRight_right">{{ item.cate }}</view>
 					</view>
-
 					<view class="PastRight_date roww">
 						<view style="line-height: 40rpx">{{ item.date }}</view>
 						<view class="allline"></view>
