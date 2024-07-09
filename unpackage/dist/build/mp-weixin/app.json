@@ -1,0 +1,124 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/Login/Login",
+    "pages/activity/activity",
+    "pages/circle/circle",
+    "pages/Group/Group",
+    "pages/cart/cart",
+    "pages/Groupaddress/Groupaddress",
+    "pages/shangjiaAddress/shangjiaAddress",
+    "pages/shangjiaAddressDetail/shangjiaAddressDetail",
+    "pages/my/my",
+    "pages1/shopAdd/shopAdd",
+    "pages1/cs/cs",
+    "pages1/Test/Test",
+    "pages1/qiandao/qiandao",
+    "pages1/activityWQList/activityWQList",
+    "pages1/wqActivity/wqActivity"
+  ],
+  "subPackages": [
+    {
+      "root": "pages_huodong",
+      "pages": [
+        "SixModules/SixModules",
+        "address/address",
+        "shop/shop",
+        "Detail/Detail",
+        "ActivityDetail/ActivityDetail",
+        "SginIn/SginIn",
+        "pay/pay"
+      ]
+    },
+    {
+      "root": "pages_quanzi",
+      "pages": [
+        "criclleDetal/criclleDetal",
+        "release/release"
+      ]
+    },
+    {
+      "root": "pages_wode",
+      "pages": [
+        "RealName/RealName",
+        "action/action",
+        "notification/notification",
+        "follow/follow",
+        "Fans/Fans",
+        "Activity/Activity",
+        "Feedback/Feedback",
+        "userInfoEdit/userInfoEdit",
+        "system/system",
+        "xieyi/xieyi",
+        "blacklist/blacklist",
+        "PersonalCenter/PersonalCenter",
+        "PastActlist/PastActlist",
+        "PastDetail/PastDetail",
+        "Evaluate/Evaluate",
+        "vip/vip",
+        "shimingRenzheng/shimingRenzheng"
+      ]
+    },
+    {
+      "root": "pages_my",
+      "pages": [
+        "vipcenter/vipcenter",
+        "SignIn/SignIn"
+      ]
+    },
+    {
+      "root": "pages_yindao",
+      "pages": [
+        "yindao1/yindao1",
+        "yindao2/yindao2",
+        "yindao3/yindao3",
+        "yindao4/yindao4"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/activity/activity",
+        "text": "活动"
+      },
+      {
+        "pagePath": "pages/circle/circle",
+        "text": "圈子"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      }
+    ]
+  },
+  "__usePrivacyCheck__": true,
+  "ignoreDevUnusedFiles": false,
+  "requiredPrivateInfos": [
+    "getFuzzyLocation",
+    "chooseLocation",
+    "choosePoi"
+  ],
+  "permission": {
+    "scope.userFuzzyLocation": {
+      "desc": "位置用来判断距离店铺位置"
+    },
+    "scope.userLocation": {
+      "desc": "计算距商家的距离"
+    },
+    "scope.openLocation": {
+      "desc": "计算距商家的距离"
+    }
+  },
+  "usingComponents": {}
+}

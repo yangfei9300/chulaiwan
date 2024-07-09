@@ -1,5 +1,5 @@
 <script>
-	export default {  
+	export default {      
 		globalData:{
 			baseurl:'https://ta.imjiayi.com',
 			imgurl:'http://ysv.zjhaly.top',
@@ -19,7 +19,7 @@
 				base_address:'',
 				base_interest:[],
 				// 标签
-				base_marks:[],      
+				base_marks:[],
 			}, 
 		},  
 		onLaunch: function(res) {

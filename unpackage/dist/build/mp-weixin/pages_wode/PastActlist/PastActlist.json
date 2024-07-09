@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "往期活动",
+  "enablePullDownRefresh": true,
+  "navigationStyle": "custom",
+  "usingComponents": {}
+}

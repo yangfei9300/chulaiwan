@@ -1,7 +1,8 @@
 {
   "description": "项目配置文件。",
   "packOptions": {
-    "ignore": []
+    "ignore": [],
+    "include": []
   },
   "setting": {
     "urlCheck": false,
@@ -11,10 +12,15 @@
     "newFeature": true,
     "bigPackageSizeSupport": true,
     "ignoreUploadUnusedFiles": false,
-    "ignoreDevUnusedFiles": false
+    "ignoreDevUnusedFiles": false,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    }
   },
   "compileType": "miniprogram",
-  "libVersion": "",
+  "libVersion": "3.4.7",
   "appid": "wxbed1238c5f86859c",
   "projectname": "chulaiwan11",
   "condition": {
@@ -41,5 +47,9 @@
         }
       ]
     }
+  },
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
   }
 }

@@ -243,6 +243,24 @@ var _default = {
   onShow: function onShow() {
     this.getIsToken();
   },
+  onShareAppMessage: function onShareAppMessage() {
+    // if (res.from == 'button') {
+    //     console.log(res.target, res)
+    // }  
+    return {
+      title: this.list.title,
+      imageUrl: this.list.cover,
+      path: '/pages_wode/PastDetail/PastDetail?id=' + this.list.id //这里是被分享的人点击进来之后的页面
+    };
+  },
+  onShareTimeline: function onShareTimeline() {
+    return {
+      title: this.list.title,
+      imageUrl: this.list.cover,
+      path: '/pages_wode/PastDetail/PastDetail?id=' + this.list.id //这里是被分享的人点击进来之后的页面
+    };
+  },
+
   methods: {
     onshowPage: function onshowPage() {
       this.getInfo();
@@ -329,18 +347,17 @@ var _default = {
         complete: function complete() {}
       });
     },
-    //分享
-    onShareAppMessage: function onShareAppMessage(res) {
-      if (res.from === 'button') {
-        // 来自页面内分享按钮
-        console.log(res.target);
-      }
-      return {
-        title: '往期活动',
-        imageUrl: "https://jiayiwangluo.oss-cn-beijing.aliyuncs.com/image/xcx/171151604849876.png",
-        path: '/pages_wode/PastDetail/PastDetail?id=' + this.id
-      };
-    },
+    // //分享
+    // onShareAppMessage(res) {
+    // 		if (res.from === 'button') {// 来自页面内分享按钮
+    // 		console.log(res.target)
+    // 		}
+    // 		return {
+    // 		title: '往期活动',
+    // 		 imageUrl:"https://jiayiwangluo.oss-cn-beijing.aliyuncs.com/image/xcx/171151604849876.png",
+    // 		path: '/pages_wode/PastDetail/PastDetail?id='+this.id
+    // 		}
+    // 	},
     // 圈子点赞
     MomentLike: function MomentLike() {
       var _this4 = this;

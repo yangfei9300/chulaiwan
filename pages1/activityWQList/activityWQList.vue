@@ -99,16 +99,19 @@
 		        console.log(res.target, res)
 		    }  
 		    return {
-		      title:'往期活动',
-			  imageUrl:"https://jiayiwangluo.oss-cn-beijing.aliyuncs.com/image/xcx/171151604849876.png",
-		      path:'/pages1/activityWQList/activityWQList',//这里是被分享的人点击进来之后的页面
-		    }
+		   //    title:this.wqActivityList[0].title,
+			  // imageUrl:this.wqActivityList[0].cover,
+		   //     path:'/pages1/wqActivity/wqActivity?id='+this.wqActivityList[0].id,//这里是被分享的人点击进来之后的页面
+		    title:"往期活动",
+		    imageUrl:"https://jiayiwangluo.oss-cn-beijing.aliyuncs.com/image/xcx/171151604849876.png",
+		     path:'/pages1/activityWQList/activityWQList?id='+this.wqActivityList[0].id,//这里是被分享的人点击进来之后的页面
+			}
 		},
 		 onShareTimeline: function () { 
 		      return {
-		        title:'往期活动',
+		        title:"往期活动",
 		        imageUrl:"https://jiayiwangluo.oss-cn-beijing.aliyuncs.com/image/xcx/171151604849876.png",
-		        path:'/pages1/activityWQList/activityWQList',//这里是被分享的人点击进来之后的页面
+		         path:'/pages1/activityWQList/activityWQList?id='+this.wqActivityList[0].id//这里是被分享的人点击进来之后的页面
 		      }
 		  },
 		methods: {

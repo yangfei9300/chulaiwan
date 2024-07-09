@@ -1,16 +1,16 @@
 <template>
 	<view class="">
 		<view class="h-40"></view>
-		<view class="roww rowsa">
+		<view class="roww rowsa" style="line-height: 62rpx;">
 			<picker :range="fenzhanList" range-key="nickname" @change="cityChange">  
-				<view>{{citySel}}  ~ </view>
+				<view>{{citySel}}  ▼ </view>
 			</picker>
 			<!-- <image class="souisuoview" src="/staic/sousuoico.jpg"></image> -->
 			<image class="souisuoview" src="/static/sousuoico.jpg"></image>
 			<image class="dufjis" @click="showLoadApp()" src="/static/fujin.gif"></image>
 		</view>
 		<view class="h-40"></view>
-		<view class="">
+		<view class="">  
 			<swiper
 			class="onswiper" 
 			previous-margin="20px" next-margin="20px" :indicator-dots="false" autoplay
@@ -714,11 +714,18 @@
 		onShareAppMessage(res) {
 
 			return {
-				title: '出来玩就现在',
+				title: '出来玩，就现在！',
 				path: '/pages/index/index',
-				'imageUrl': 'https://ta.imjiayi.com/upload/upload/19702716d07b75ec644215ce40cc5a2.jpg'
+				'imageUrl': 'https://jiayiwangluo.oss-cn-beijing.aliyuncs.com/shop_comment/20240708171949.png'
 			}
 		},
+		onShareTimeline: function () {
+		     return {
+		     	title: '出来玩，就现在！',
+		     	path: '/pages/index/index',
+		     	'imageUrl': 'https://jiayiwangluo.oss-cn-beijing.aliyuncs.com/shop_comment/20240708171949.png'
+		     }
+		 },
 		methods: {
 			
 			cityChange(res){  
@@ -928,17 +935,12 @@
 						} else {
 							this.showuquanAlert = res.needAuthorization;
 						}
-
-
-
-
 					},
 					fail: () => {},
 					complete: () => {},
 				})
 				// #endif
 			},
-
 			showuquanAlertClick() {
 				this.showuquanAlert = !this.showuquanAlert;
 			},

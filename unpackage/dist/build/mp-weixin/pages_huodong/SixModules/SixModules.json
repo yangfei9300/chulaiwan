@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-rate": "/uni_modules/uni-rate/components/uni-rate/uni-rate",
+    "hengactivity": "/components/zujian1"
+  }
+}

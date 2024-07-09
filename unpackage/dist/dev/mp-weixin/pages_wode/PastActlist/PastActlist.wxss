@@ -1,5 +1,5 @@
 
-.topivew.data-v-52c46ba0{
+.topivew.data-v-52c46ba0 {
 	background-image: url(https://ta.imjiayi.com/upload/upload/未标题-101@2x.png);
 	background-size: 100% 100%;
 	width: 750rpx;
@@ -7,7 +7,7 @@
 	top: 0rpx;
 	left: 0rpx;
 }
-.xiaoxiiew.data-v-52c46ba0{
+.xiaoxiiew.data-v-52c46ba0 {
 	background-image: url(https://ta.imjiayi.com/upload/upload/未标题-102@2x.png);
 	background-size: 100% 100%;
 	width: 750rpx;
@@ -22,7 +22,7 @@
 	color: white;
 	font-size: 28rpx;
 	border-radius: 8rpx;
-	background: #F8B800;
+	background: #f8b800;
 }
 .PastRight_flex_left_img.data-v-52c46ba0 {
 	width: 27rpx;
@@ -34,7 +34,7 @@
 	padding: 6rpx 14rpx;
 	color: white;
 	font-size: 28rpx;
-	background: #D24E15;
+	background: #d24e15;
 	border-radius: 8rpx;
 	margin-right: 12rpx;
 }
@@ -82,8 +82,7 @@
 	border-radius: 12rpx;
 }
 .Past.data-v-52c46ba0 {
-
-	background: #FFFFFF;
+	background: #ffffff;
 	padding: 18rpx;
 	box-shadow: 0px 0px 15px 0px rgba(17, 17, 17, 0.06);
 	border-radius: 10px 10px 10px 10px;
@@ -91,7 +90,7 @@
 	margin: 16rpx 0;
 }
 .content.data-v-52c46ba0 {
-	background-color: #FFFFFF;
+	background-color: #ffffff;
 	padding: 0rpx 0rpx;
 }
 

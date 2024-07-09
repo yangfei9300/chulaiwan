@@ -189,7 +189,7 @@
 		},
 		 onShareTimeline: function () { 
 		      return {
-		        title:'往期活动',
+		          title:this.activityInfo.title,
 		        imageUrl:this.activityInfo.cover,
 		        path:'/pages1/wqActivity/wqActivity?id='+this.options.id,//这里是被分享的人点击进来之后的页面
 		      }

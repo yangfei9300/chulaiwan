@@ -872,9 +872,16 @@ var _default = {
   },
   onShareAppMessage: function onShareAppMessage(res) {
     return {
-      title: '出来玩就现在',
+      title: '出来玩，就现在！',
       path: '/pages/index/index',
-      'imageUrl': 'https://ta.imjiayi.com/upload/upload/19702716d07b75ec644215ce40cc5a2.jpg'
+      'imageUrl': 'https://jiayiwangluo.oss-cn-beijing.aliyuncs.com/shop_comment/20240708171949.png'
+    };
+  },
+  onShareTimeline: function onShareTimeline() {
+    return {
+      title: '出来玩，就现在！',
+      path: '/pages/index/index',
+      'imageUrl': 'https://jiayiwangluo.oss-cn-beijing.aliyuncs.com/shop_comment/20240708171949.png'
     };
   },
   methods: {

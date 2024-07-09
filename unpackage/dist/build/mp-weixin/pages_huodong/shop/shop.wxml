@@ -1,0 +1,1 @@
+<view style="padding:0 15rpx;"><rich-text class="conter" nodes="{{details}}"></rich-text></view>

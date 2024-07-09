@@ -1,6 +1,6 @@
 <template>
 	<view class="content">
-		<image class="cover" :src="list.cover" mode=""></image>
+		<image class="cover" mode="aspectFill" :src="list.cover" ></image>
 		<view class="DetailView">
 			<view class="DetailTop">
 				<view class="Detailaddress">{{list.title}}</view>
@@ -101,6 +101,25 @@
 		onShow() {
 			this.getIsToken();
 		},
+		
+		onShareAppMessage() {
+		    // if (res.from == 'button') {
+		    //     console.log(res.target, res)
+		    // }  
+		    return {
+		      title:this.list.title,
+			  imageUrl:this.list.cover,
+		      path:'/pages_wode/PastDetail/PastDetail?id='+this.list.id,//这里是被分享的人点击进来之后的页面
+		    }
+		},       
+		 onShareTimeline() { 
+		      return {
+		        title:this.list.title,
+		        imageUrl:this.list.cover,
+		        path:'/pages_wode/PastDetail/PastDetail?id='+this.list.id,//这里是被分享的人点击进来之后的页面
+		      }
+		  },   
+		
 		methods: {
 			onshowPage(){
 				this.getInfo();
@@ -188,18 +207,18 @@
 					complete: () => {}
 				});
 			},
-			//分享
-			onShareAppMessage(res) {
+			// //分享
+			// onShareAppMessage(res) {
 			
-					if (res.from === 'button') {// 来自页面内分享按钮
-					console.log(res.target)
-					}
-					return {
-					title: '往期活动',
-					 imageUrl:"https://jiayiwangluo.oss-cn-beijing.aliyuncs.com/image/xcx/171151604849876.png",
-					path: '/pages_wode/PastDetail/PastDetail?id='+this.id
-					}
-				},
+			// 		if (res.from === 'button') {// 来自页面内分享按钮
+			// 		console.log(res.target)
+			// 		}
+			// 		return {
+			// 		title: '往期活动',
+			// 		 imageUrl:"https://jiayiwangluo.oss-cn-beijing.aliyuncs.com/image/xcx/171151604849876.png",
+			// 		path: '/pages_wode/PastDetail/PastDetail?id='+this.id
+			// 		}
+			// 	},
 			// 圈子点赞
 			MomentLike() {
 				uni.request({

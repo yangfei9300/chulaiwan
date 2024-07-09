@@ -204,10 +204,6 @@ exports.default = void 0;
 //
 //
 //
-//
-//
-//
-//
 var _default = {
   data: function data() {
     return {
@@ -232,20 +228,42 @@ var _default = {
   onShow: function onShow() {
     this.getIsToken();
   },
+  onShareAppMessage: function onShareAppMessage(res) {
+    if (res.from == 'button') {
+      console.log(res.target, res);
+    }
+    return {
+      //    title:this.list[0].title,
+      // imageUrl:this.list[0].cover,
+      //     path:'/pages1/wqActivity/wqActivity?id='+this.list[0].id,//这里是被分享的人点击进来之后的页面
+      title: '往期活动',
+      imageUrl: 'https://jiayiwangluo.oss-cn-beijing.aliyuncs.com/image/xcx/171151604849876.png',
+      path: '/pages_wode/PastActlist/PastActlist?id=' + this.list[0].id //这里是被分享的人点击进来之后的页面
+    };
+  },
+
+  onShareTimeline: function onShareTimeline() {
+    return {
+      title: this.list[0].title,
+      imageUrl: "https://jiayiwangluo.oss-cn-beijing.aliyuncs.com/image/xcx/171151604849876.png",
+      path: '/pages_wode/PastActlist/PastActlist?id=' + this.list[0].id //这里是被分享的人点击进来之后的页面
+    };
+  },
+
   methods: {
     onshowPage: function onshowPage() {
       this.getPast();
     },
     getIsToken: function getIsToken() {
       var _this = this;
-      var token = uni.getStorageSync("token");
-      var url = "/api/IosVisitor/checkToken";
+      var token = uni.getStorageSync('token');
+      var url = '/api/IosVisitor/checkToken';
       uni.request({
         url: this.baseurl + url,
         method: 'POST',
         data: {
-          'token': token,
-          city: uni.getStorageSync("citySel")
+          token: token,
+          city: uni.getStorageSync('citySel')
         },
         header: {
           xcx: 1,
@@ -256,11 +274,11 @@ var _default = {
           if (data.code == 0) {
             getApp().globalData.token = null;
             _this.token = null;
-            uni.removeStorageSync("token");
+            uni.removeStorageSync('token');
           }
           if (data.data.is_reg == 0) {
-            uni.setStorageSync("loginInfo", {
-              'status': 0
+            uni.setStorageSync('loginInfo', {
+              status: 0
             });
           }
           _this.onshowPage();
@@ -294,7 +312,7 @@ var _default = {
       var _this3 = this;
       var url = '/api/act/pastActList';
       if (!this.tokenValue) {
-        url = "/api/IosVisitor/pastActList";
+        url = '/api/IosVisitor/pastActList';
       }
       uni.request({
         url: this.baseurl + url,
@@ -302,7 +320,7 @@ var _default = {
         data: {
           page: this.page++,
           num: 100,
-          city: uni.getStorageSync("citySel")
+          city: uni.getStorageSync('citySel')
         },
         header: {
           xcx: 1,
