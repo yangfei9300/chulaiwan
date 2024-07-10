@@ -507,7 +507,7 @@
 	left: 0;
 	right: 0;
 	width: 100%;
-	height: 580rpx;
+	/* height: 580rpx; */
 	z-index: -1;
 }
 .content.data-v-0b5aa77c {

@@ -1,6 +1,6 @@
 <template>
 	<view class="content">
-		<image class="cover" mode="aspectFill" :src="list.cover" ></image>
+		<image class="cover" mode="widthFix" :src="list.cover" ></image>
 		<view class="DetailView">
 			<view class="DetailTop">
 				<view class="Detailaddress">{{list.title}}</view>
@@ -536,7 +536,7 @@
 		left: 0;
 		right: 0;
 		width: 100%;
-		height: 580rpx;
+		/* height: 580rpx; */
 		z-index: -1;
 	}
 

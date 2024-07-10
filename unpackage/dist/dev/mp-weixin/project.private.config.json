@@ -8,6 +8,13 @@
     "miniprogram": {
       "list": [
         {
+          "name": "pages1/wqActivity/wqActivity",
+          "pathName": "pages1/wqActivity/wqActivity",
+          "query": "id=48",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
           "name": "pages_yindao/yindao1/yindao1",
           "pathName": "pages_yindao/yindao1/yindao1",
           "query": "",

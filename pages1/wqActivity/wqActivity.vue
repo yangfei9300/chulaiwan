@@ -1,19 +1,19 @@
 <template>
 	<view>
-		<view class="topivew" :style="{
-			'background-image': 'url('+activityInfo.cover+')','height':'580rpx'
+		<!-- <view class="topivew" :style="{
+			'background-image': 'url('+activityInfo.cover+')','height':'580rpx',
+			'background-size':'100% 100%'
 		}">
-			<!-- <view class="roww rowsb pore" :style="{
-				top:(jnSize.top+10)+'px',
-			}" style="padding:0rpx 25rpx;">
-				<image @click.stop="backb" src="/static/youjiantou.png" class="w-40 h-40"></image>
-				<view style="font-weight: bold;color: white;" class="">详情</view>
-				<image src="https://ta.imjiayi.com/upload/upload/发布活动_slices/箭头 下 (6).png"
-					class="w-40 h-40 yincang1"></image>
-			</view> -->
-		</view>
-
-		<view class="colonn dibuoinfoview center_center">
+			
+		</view> -->
+		
+		<image class="topivew" 
+		style="width: 750rpx;height: 580rpx;" 
+		mode="widthFix" :src="activityInfo.cover"></image>
+		
+		<view class="colonn dibuoinfoview center_center"
+		style="background-color: white;position: relative;top: -100rpx;"
+		>
 			<view style="height: 38rpx;"></view>
 			<view style="font-size: 40rpx;font-weight: bold;">{{activityInfo.title}}</view>
 			<view class="colonn" style="width: 750rpx;padding-left: 34rpx;">
