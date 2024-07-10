@@ -1,1 +1,0 @@
-<view data-event-opts="{{[['tap',[['aaa',['$event']]]]]}}" catchtap="__e"><video style="{{'background-color:red;border-radius:20rpx;'+('width:'+(width+'rpx')+';')+('height:'+(height+'rpx')+';')}}" src="{{imgUrl}}" poster="{{videoImg}}" mode="aspectFill"></video></view>

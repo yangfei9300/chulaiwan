@@ -1,7 +1,0 @@
-{
-  "navigationBarTitleText": "选择商家",
-  "enablePullDownRefresh": false,
-  "usingComponents": {
-    "uni-rate": "/uni_modules/uni-rate/components/uni-rate/uni-rate"
-  }
-}

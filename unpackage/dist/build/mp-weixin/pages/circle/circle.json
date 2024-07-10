@@ -1,9 +1,0 @@
-{
-  "navigationBarTitleText": "圈子",
-  "enablePullDownRefresh": true,
-  "navigationStyle": "custom",
-  "usingComponents": {
-    "videos": "/components/videos/videos",
-    "load-app": "/components/loadApp/loadApp"
-  }
-}
